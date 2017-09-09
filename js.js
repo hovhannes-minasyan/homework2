@@ -1,8 +1,9 @@
-var model = 6;
+let model = 5;
 const phone = "iPhone";
-var number1 = 5;
-var number2 = 7;
-model = model + 1;
+const number1 = 5;
+const number2 = 7;
+model = model+1; 
+model++;
 
 console.log(phone+model);
 console.log(number1/number2);
